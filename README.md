@@ -10,15 +10,15 @@
 
 # 目标总体情况
 
-| 序号 |         目标         |  当前情况   | 更新时间 |
-| :--: | :------------------: | :---------: | :------: |
-|  1   |       看10本书       |    3/10     | 20191210 |
-|  2   |       减肥20斤       |   未开始    | 20190101 |
-|  3   |     跑步1000公里     | 127.02/1000 | 20191211 |
-|  4   |        学游泳        |   未开始    | 20190101 |
-|  5   |  抄写100篇英语新闻   |   未开始    | 20190101 |
-|  6   | 学习 Java 前后台知识 |   未开始    | 20190101 |
-|  7   |  输出20篇高质量博客  |   未开始    | 20190101 |
+| 序号 |         目标         |    当前情况    | 更新时间 |
+| :--: | :------------------: | :------------: | :------: |
+|  1   |       看10本书       |      3/10      | 20191210 |
+|  2   |       减肥20斤       |     未开始     | 20190101 |
+|  3   |     跑步1000公里     |  127.02/1000   | 20191211 |
+|  4   |        学游泳        |     未开始     | 20190101 |
+|  5   |  抄写100篇英语新闻   |     未开始     | 20190101 |
+|  6   | 学习 Java 前后台知识 | SpringBoot基础 | 20191231 |
+|  7   |  输出20篇高质量博客  | SpringBoot基础 | 20191231 |
 
 
 
@@ -132,9 +132,21 @@
 
 ## 6. Java 前后台知识
 
+[SpringBoot 学习笔记](https://github.com/YoungBear/MyBlog/blob/master/md_files/SpringBoot/SpringBoot.md)
+
 
 
 ## 7. 20 篇高质量博客
+
+[1. 二分查找](https://github.com/YoungBear/MyBlog/blob/master/md_files/java/BinarySearch.md)
+
+[2. SpringBoot 学习笔记](https://github.com/YoungBear/MyBlog/blob/master/md_files/SpringBoot/SpringBoot.md)
+
+[3. 筛选法获取素数列表](https://github.com/YoungBear/MyBlog/blob/master/md_files/java/Math/PrimeBitSet.md)
+
+[4. Linux 常用压缩解压命令](https://github.com/YoungBear/MyBlog/blob/master/md_files/linux/tar.md)
+
+[5. LeetCode 练习笔记](https://github.com/YoungBear/LintCode/blob/master/README.md)
 
 
 
