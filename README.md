@@ -18,7 +18,7 @@
 |  2   | 减肥9kg(from 89.0kg) |  未开始  |            |
 |  3   |      跑步100次       |  1/100   | 2020-01-01 |
 |  4   |        学游泳        |  未开始  |            |
-|  5   |  抄写100篇英语新闻   |  未开始  |            |
+|  5   |   抄写50篇英语新闻   |  未开始  |            |
 |  6   |    学习 Java 知识    |          |            |
 |  7   |         装修         |   80%    |            |
 
@@ -26,3 +26,22 @@
 
 # 进度
 
+## 6. Java 知识
+
+### 1. 阅读 SpringBoot 官方文档
+
+[SpringBoot 最新文档](https://docs.spring.io/spring-boot/docs/current/reference/)
+
+
+
+### 2. Spring Security
+
+
+
+### 3. Spring Data
+
+
+
+### 4. Spring Cloud
+
+微服务
