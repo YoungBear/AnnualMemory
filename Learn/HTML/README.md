@@ -155,3 +155,45 @@ CSS 添加到HTML的方式：
 - 内联样式：在HTML元素中使用"style"属性
 - 内部样式表：在HTML文档头部`<head>`区域使用`<style>`元素来包含CSS
 - 外部引用：使用外部CSS文件（推荐使用）
+
+部分常用属性：
+
+- color：颜色
+- margin_left：左边距
+- background-color：背景颜色
+- font-family：字体
+- font-size：字体大小
+- text-align：文字对齐
+
+## 4.4 图像
+
+HTML中图像使用标签`<img>`表示。
+
+`<img>` 是空标签，意思就是它只包含属性，没有闭合标签。
+
+图像相关属性：
+
+- src：表示图像的地址，可以为本地文件，也可以为网络上的文件。
+- alt：用来为图像定义一串预备的可替换的文本。如当浏览器不能正常载入图像时，替换文本属性告诉读者她们失去的信息。此时，浏览器将显示这个替代性的文本而不是图像。
+- height：高度。
+- width：宽度。
+
+eg.
+
+```html
+    <h2>Norwegian Mountain Trip</h2>
+    <img border="0" src="./resources/images/pulpit.jpg" alt="Pulpit rock" width="304" height="228">
+
+    <p>网络上的图片</p>
+    <img src="https://avatars.githubusercontent.com/u/8236175?s=400&u=4ef8ad6e72966ea14cb197e986cff78fb4ca9e6e&v=4"
+     alt="avatar youngbear" width="400" height="400">
+```
+
+图像链接：使用`<a>`和`<img>`组合：
+
+```html
+    <p>图像链接</p>
+    <a href="https://github.com/YoungBear">
+        <img src="./resources/images/avatar.jfif" height="30" width="30"></a>
+```
+
