@@ -197,3 +197,38 @@ eg.
         <img src="./resources/images/avatar.jfif" height="30" width="30"></a>
 ```
 
+## 4.5 表格
+
+- 表格由标签`<table>`来定义
+- 行由`<tr>`来定义
+- 每行由标签`<td>`表示若干单元格（table data）
+- 数据单元格可以包含文本，图片，列表，段落，表单，水平线，表格等
+- 标签`<border>`表示边框
+- 标签`<th>`表示表头
+- `<caption>`表示表格标题
+
+eg.
+
+```html
+    <p>2行3列的表格</p>
+    <table border="1">
+        <tr>
+            <th>表头1</th>
+            <th>表头2</th>
+            <th>表头3</th>
+        </tr>
+        <tr>
+            <td>aa</td>
+            <td>ab</td>
+            <td>ac</td>
+        </tr>
+        <tr>
+            <td>ba</td>
+            <td>bb</td>
+            <td>bc</td>
+        </tr>
+    </table>
+```
+
+参考：[HTML表格](https://www.runoob.com/html/html-tables.html)
+
