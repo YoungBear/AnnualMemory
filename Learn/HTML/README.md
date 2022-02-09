@@ -232,3 +232,61 @@ eg.
 
 参考：[HTML表格](https://www.runoob.com/html/html-tables.html)
 
+## 4.6 列表
+
+HTML 支持有序、无序和定义列表:
+
+无序列表是一个项目的列表，此列项目使用粗体圆点（典型的小黑圆圈）进行标记。无序列表使用 `<ul>` 标签。
+
+同样，有序列表也是一列项目，列表项目使用数字进行标记。 有序列表始于 `<ol> `标签。每个列表项始于 `<li> `标签。
+
+自定义列表不仅仅是一列项目，而是项目及其注释的组合。
+
+自定义列表以 `<dl>` 标签开始。每个自定义列表项以 `<dt>` 开始。每个自定义列表项的定义以 `<dd>` 开始。
+
+列表相关标签：
+
+| 标签   | 描述                                        |
+| ------ | ------------------------------------------- |
+| `<ol>` | 定义有序列表 ordered lists                  |
+| `<ul>` | 定义无序列表 unordered lists                |
+| `<li>` | 定义列表项 list item                        |
+| `<dl>` | 子定义列表 definition lists                 |
+| `<dt>` | 自定义列表项目 definition term              |
+| `<dd>` | 定义自定列表项的描述 definition description |
+
+
+
+```html
+<body>
+    <h4>无序列表:</h4>
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+
+    <h4>有序列表:</h4>
+    <ol>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+
+    <h4>有序列表:指定起始序号</h4>
+    <ol start="20">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+
+    <h4>一个自定义列表：</h4>
+    <dl>
+        <dt>Coffee</dt>
+        <dd>- black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>- white cold drink</dd>
+    </dl>
+</body>
+```
+
